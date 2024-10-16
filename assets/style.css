@@ -1,0 +1,37 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    gap: 2%;
+    min-height: 30px;
+}
+
+.form * {
+    border-radius: 5px;
+}
+
+.date {
+    min-width: 120px;
+
+}
+
+.button {
+    min-width: 100px;
+    border: none;
+    background-color: rgb(66, 187, 66);
+    color: white;
+
+}
+
+.button:active {
+    background-color: rgb(9, 80, 9);
+}
+
+.span {
+    margin-top: 30px;
+
+}
